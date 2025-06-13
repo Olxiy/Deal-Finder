@@ -1,7 +1,7 @@
 import axios from 'axios';
 import type { FetchFilteredDeals } from '../types';
 
-const BASE_URL = 'http://localhost:3001';
+const BASE_URL = 'https://delightful-flow-production.up.railway.app';
 
 export const fetchFilteredDeals = async ({ filters, setDeals } : FetchFilteredDeals) => {
   try {
